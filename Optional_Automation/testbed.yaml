@@ -1,0 +1,15 @@
+testbed:
+  name: capstone_lab
+
+devices:
+  csr1000v:
+    os: iosxe
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.56.101
+    credentials:
+      default:
+        username: cisco
+        password: cisco123!
